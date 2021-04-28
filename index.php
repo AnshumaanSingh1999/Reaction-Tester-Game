@@ -10,7 +10,7 @@ $uname = $_POST['uname'];
 $pass = $_POST['pass'];
 
 // Create connection
-/*$conn = mysqli_connect('localhost', 'root', '','infosec');
+/*$conn = mysqli_connect("sql108.epizy.com", "epiz_27921744", "Vs4xB9iDlKB", "epiz_27921744_infosec");
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }*/
