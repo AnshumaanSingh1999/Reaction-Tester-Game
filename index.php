@@ -18,7 +18,7 @@ if (!$conn) {
 
 
 
-$db_connection = mysqli_connect("localhost", "root", "", "infosec");
+$db_connection = mysqli_connect("remotemysql.com", "Xm50JwglwS", "9n3jCV8WXN", "Xm50JwglwS");
 		$username = htmlspecialchars(strip_tags(mysqli_real_escape_string($db_connection, $uname)));
 		$password = htmlspecialchars(strip_tags(mysqli_real_escape_string($db_connection, $pass)));
 		$query = "SELECT * FROM details WHERE username = '" . $username. "' AND password = '" . $password . "'"; 
